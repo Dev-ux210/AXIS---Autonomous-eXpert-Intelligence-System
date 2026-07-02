@@ -78,7 +78,7 @@ The AI engine defaults to LLaMA 3.3 70B for premium output.
 
 If you want to alter the default model, open core.py and modify the default string mapping inside the AIAssistant class constructor:
 
-# Found inside core.py:
+### Found inside core.py:
 ```python
 model: str = "llama-3.3-70b-versatile"   # Best quality reasoning (Default)
 model: str = "llama-3.1-8b-instant"      # Ultra fast, lighter weights
