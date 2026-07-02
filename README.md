@@ -71,7 +71,7 @@ AXIS-Autonomous-eXpert-Intelligence-System/
 ├── .gitignore    # Prevents private config files (.env) from leaking online
 └── README.md     # This documentation
 ```
-```markdown 
+
 ## 💡 Engine Tweaks & Configuration
 
 The AI engine defaults to LLaMA 3.3 70B for premium output.
