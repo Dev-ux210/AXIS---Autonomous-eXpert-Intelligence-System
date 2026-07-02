@@ -61,7 +61,7 @@ Open your preferred browser and navigate to:
 http://localhost:5000
 
 ## 📁 Repository Structure
-
+```plaintext 
 AXIS-Autonomous-eXpert-Intelligence-System/
 ├── main.py       # Main router & launcher menu
 ├── core.py       # Core AI engine (Groq API wrapper & session arrays)
@@ -70,7 +70,8 @@ AXIS-Autonomous-eXpert-Intelligence-System/
 ├── axis.bat      # Windows batch command shortcut menu
 ├── .gitignore    # Prevents private config files (.env) from leaking online
 └── README.md     # This documentation
-
+```
+```markdown 
 ## 💡 Engine Tweaks & Configuration
 
 The AI engine defaults to LLaMA 3.3 70B for premium output.
@@ -78,7 +79,7 @@ The AI engine defaults to LLaMA 3.3 70B for premium output.
 If you want to alter the default model, open core.py and modify the default string mapping inside the AIAssistant class constructor:
 
 # Found inside core.py:
-
+```python
 model: str = "llama-3.3-70b-versatile"   # Best quality reasoning (Default)
 model: str = "llama-3.1-8b-instant"      # Ultra fast, lighter weights
 model: str = "mixtral-8x7b-32768"        # Optimized for long context blocks
