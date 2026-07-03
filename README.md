@@ -49,6 +49,7 @@ An interactive terminal workflow supporting local session management via text co
 | `/clear`       | Wipe current conversation memory from the active list      |
 | `/save`        | Export current chat history into a local JSON file         |
 | `/load <file>` | Restore a previous chat session from a saved JSON file     |
+| `/copy <id>`   | Copy the block with the ID assigned to the block           |
 | `/summarize`   | Direct pipeline to process and condense pasted text blocks |
 | `/history`     | View the operational message count of the current session  |
 | `/exit`        | Gracefully close the terminal interface                    |
