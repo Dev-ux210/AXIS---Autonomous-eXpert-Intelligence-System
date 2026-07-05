@@ -1,2 +1,2 @@
 @echo off
-python "D:\AXIS-Autonomus eXpert Intelligence System\main.py" %*
+python "File_PATH for main.py" %*
