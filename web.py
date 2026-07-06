@@ -46,6 +46,7 @@ HTML = """<!DOCTYPE html>
     --ai-bg: #0f2027;
     --danger: #ef4444;
   }
+  
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: 'JetBrains Mono', monospace;
